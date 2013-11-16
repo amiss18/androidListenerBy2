@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent">
+<!--
+L’élément EditText permettra à
+l’utilisateur de saisir son nom.
+-->
+<EditText
+android:id="@+id/monEditText"
+android:layout_height="wrap_content"
+android:hint="Taper votre nom"
+android:layout_width="fill_parent">
+
+
+ </EditText>
+<!--
+Le Bouton qui permettra à l’utilisateur
+de valider sa saisie
+-->
+<Button
+android:id="@+id/monBouton"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="Valider"
+android:layout_gravity="center_horizontal">
+</Button>
+
+
+
+</LinearLayout>
+    
